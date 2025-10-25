@@ -122,11 +122,13 @@ export default function Home() {
       <HeroSection
         backgroundImage={nowruzImage}
         title="Discover Afghan Cultural Heritage"
-        subtitle="Explore centuries of tradition through festivals, authentic recipes, and exquisite handicrafts"
+        subtitle="Explore centuries of tradition through festivals, authentic recipes, and exquisite handicrafts — by Team Shinwari"
         primaryCta={{
           text: "Explore Festivals",
           onClick: () => setLocation("/festivals"),
         }}
+       
+
         secondaryCta={{
           text: "Browse Recipes",
           onClick: () => setLocation("/recipes"),
